@@ -130,14 +130,10 @@ body {
 
         <div class="status" id="statusText">Status: OFF</div>
 
-        <button class="btn on" onclick="turnOn()">ON</button>
-        <button class="btn off" onclick="turnOff()">OFF</button>
+        <button onclick="fetch('update.php?status=ON')">ON</button>
+        <button onclick="fetch('update.php?status=OFF')">OFF</button>
 
         <br>
-        <button class="home">Home Screen</button>
-
-        <div class="footer">Hosting to Computer</div>
-
     </div>
 </div>
 
